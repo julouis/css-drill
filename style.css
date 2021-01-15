@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+main {
+    width: 350px;
+    margin: auto;
+    height: 98vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 15px 0px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 300px;
+    height: 50px;
+    border: 4px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.a1 p:hover {
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+
+.a2 p:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+}
+
+.a3 p:hover {
+    transition: 1s;
+    position: relative;
+    animation-name: iliketomoveitmoveit;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    background-color: white;
+    color: black;
+}
+
+@keyframes iliketomoveitmoveit {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 50px;
+    }
+}
