@@ -1,15 +1,19 @@
 body {
     background-color: black;
-}
-
-main {
-    width: 350px;
-    margin: auto;
-    height: ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 98vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: auto;
 }
 
 section {
@@ -28,10 +32,6 @@ p {
     height: 50px;
     border: 4px solid white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.a1 {
-    margin-top: 8em;
 }
 
 .a1 p:hover {
